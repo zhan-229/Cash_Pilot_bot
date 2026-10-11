@@ -1,12 +1,9 @@
-from _testcapi import awaitType
 from aiogram import Router, F
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, ReplyKeyboardRemove
 from aiogram.filters import Command, callback_data
 from dotenv import load_dotenv
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
-import os
-import time
 load_dotenv()
 
 
